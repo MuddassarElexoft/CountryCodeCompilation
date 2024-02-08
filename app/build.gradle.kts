@@ -64,7 +64,7 @@ project.afterEvaluate {
             register<MavenPublication>("release") {
                 groupId = "com.github.MuddassarElexoft"
                 artifactId = "country_code_compilation"
-                version = "1.0"
+                version = "1.2"
                 from(components.findByName("release"))
             }
         }
